@@ -1,7 +1,7 @@
 <?php
 
-include 'connection.php';
 namespace CodeSamples;
+include 'connection.php';
 
 /**
 * Factory class for creating connections

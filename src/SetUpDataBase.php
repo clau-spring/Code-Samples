@@ -1,7 +1,7 @@
 <?php
 
-include 'DataBaseConnectionFactory.php';
 namespace CodeSamples;
+include 'DataBaseConnectionFactory.php';
 
 class SetUpDataBase {
     public function createUser($username, $email, $password) {
@@ -23,7 +23,8 @@ class SetUpDataBase {
             echo 'Error while quering';
         }
     }
+
 }
 
 $new_user = new SetUpDataBase();
-$new_user->createUser('Vanessa', 'vanessa@gmail.com', '111');
+$new_user->createUser('Vanessa1', 'vanessa@gmail.com', '111');

@@ -1,6 +1,7 @@
 <?php
 
 namespace CodeSamples;
+use PDO;
 
 /**
 * Class to connect to the database
