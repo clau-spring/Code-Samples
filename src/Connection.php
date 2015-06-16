@@ -39,6 +39,7 @@ class Connection {
         $this->connection->setAttribute(PDO::ATTR_ERRMODE, PDO::ERRMODE_EXCEPTION);
         } catch(PDOException $e) {
             echo $e->getMessage();
+            file_put_contents('PDO_log.log', $e->getMessage(), FILE_APPEND);
         }
 
         return $this->connection;
