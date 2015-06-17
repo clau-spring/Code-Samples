@@ -9,14 +9,13 @@ if (isset($_SESSION['login_user'])) {
 <!DOCTYPE html>
 <html>
 <head>
-<title>Login Form in PHP with Session</title>
+<title>Login Form</title>
 <script type="text/javascript" href="js/jquery-1.11.3.min.js"></script>
 <script type="text/javascript" href="js/login.js"></script>
 <link href="css/style.css" rel="stylesheet" type="text/css">
 </head>
 <body>
 <div id="main">
-    <h1>PHP Login Session Example</h1>
     <div id="login">
         <h2>Login Form</h2>
         <form action="" method="post">
